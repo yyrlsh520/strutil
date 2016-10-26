@@ -39,4 +39,12 @@ public class StrServiceTest {
     public void test2() {
         assertEquals(3, strService.getMaxNoRepeatStr("abcabcbb"));
     }
+
+    /**
+     * 测试单个字符
+     */
+    @Test
+    public void test3() {
+        assertEquals(1, strService.getMaxNoRepeatStr("a"));
+    }
 }
