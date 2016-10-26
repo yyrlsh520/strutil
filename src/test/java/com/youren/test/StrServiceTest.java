@@ -32,4 +32,11 @@ public class StrServiceTest {
         assertEquals(1, strService.getMaxNoRepeatStr("bbbbbbbbbb"));
     }
 
+    /**
+     * test abcabcbb
+     */
+    @Test
+    public void test2() {
+        assertEquals(3, strService.getMaxNoRepeatStr("abcabcbb"));
+    }
 }
