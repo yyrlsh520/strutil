@@ -7,13 +7,6 @@ import org.apache.commons.lang3.StringUtils;
 
 public class StrService {
 
-    public static void main(String args[]) {
-        StrService t = new StrService();
-        System.out.println(t.getMaxNoRepeatStr("abcde"));
-        System.out.println(t.getMaxNoRepeatStr("abcabcbb"));
-        System.out.println(t.getMaxNoRepeatStr("bbbb"));
-    }
-
     /**
      * 获取子串内最长不重复子串长度
      * 
